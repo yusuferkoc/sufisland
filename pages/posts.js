@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import { GridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import thumbGov from "../public/images/ac.jpg"
+import thumbGov from "../public/static/images/ac.jpg"
  
 const Posts = () => (
   <Layout>

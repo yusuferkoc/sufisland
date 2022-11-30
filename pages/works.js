@@ -1,9 +1,9 @@
 import { Container, Divider, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 import { WorkGridItem } from "../components/grid-item";
 import Section from "../components/section";
-import thumbSwapper from "../public/images/ac.jpg"
-import thumbDao from "../public/images/dao.png"
-import Glas from "../public/images/glass.png"
+import thumbSwapper from "../public/static/images/ac.jpg"
+import thumbDao from "../public/static/images/dao.png"
+import Glas from "../public/static/images/glass.png"
 import Layout from "../components/layouts/article";
 
 

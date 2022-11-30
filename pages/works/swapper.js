@@ -24,7 +24,7 @@ const Work = () => {
                         <span>Windows/macOs</span>
                     </ListItem>
                 </List>
-                <WorkImage src={"/images/hero.png"} alt="swapper"></WorkImage>
+                <WorkImage src={"static/images/hero.png"} alt="swapper"></WorkImage>
             </Container>
         </Layout>
     )

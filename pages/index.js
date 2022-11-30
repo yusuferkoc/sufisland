@@ -57,7 +57,7 @@ const Page = () => {
                 maxWidth="100px"
                 display="inline-block"
                 borderRadius="full"
-                src="/images/sufi.jpeg"
+                src="static/images/sufi.jpeg"
                 alt="pfp"
               />
             </Box>

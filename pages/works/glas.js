@@ -27,10 +27,10 @@ const Work = () => {
         </List>
         <List>
           <ListItem>
-            <WorkImage src={'/images/glass.png'} alt="glas"></WorkImage>
+            <WorkImage src={"/glass.png"} alt="glass"></WorkImage>
           </ListItem>
           <ListItem>
-            <WorkImage src={'/images/glas.png'} alt="glas"></WorkImage>
+            <WorkImage src={"/glas.png"} alt="glas"></WorkImage>
           </ListItem>
         </List>
       </Container>
