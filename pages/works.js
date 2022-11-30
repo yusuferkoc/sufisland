@@ -21,7 +21,7 @@ const Works = () => {
                         <Text fontFamily="M PLUS Rounded 1c" fontWeight={"thin"}>Decentralized swap exchange based on ethereum.</Text>
                 </Section>
                 <Section delay={0.2}>
-                    <WorkGridItem id="Glas" title="Glas" thumbnail={glas}></WorkGridItem>
+                    <WorkGridItem id="glas" title="Glas" thumbnail={glas}></WorkGridItem>
                     <Text fontFamily="M PLUS Rounded 1c" fontWeight={"thin"}>A tool that creates a stylish code preview.</Text>
                 </Section>
             </SimpleGrid>
