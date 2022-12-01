@@ -1,8 +1,8 @@
-import Link from "next/link"
-import Image from "next/image"
-import { Divider, Text, useColorModeValue } from "@chakra-ui/react"
-import styled from  "@emotion/styled"
-import FootprintIcon from "./icons/footprint"
+import Link from 'next/link'
+import Image from 'next/image'
+import { Divider, Text, useColorModeValue } from '@chakra-ui/react'
+import styled from '@emotion/styled'
+import FootprintIcon from './icons/footprint'
 
 const LogoBox = styled.span`
   font-weight: bold;
@@ -32,7 +32,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-yusuf erkoc            
+            suf(is)land
           </Text>
         </LogoBox>
       </a>

@@ -10,6 +10,7 @@ import {
   List,
   ListItem,
   Icon,
+  Text,
 } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
@@ -17,7 +18,7 @@ import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-import {IoLogoTwitter , IoLogoGithub} from "react-icons/io5"
+import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
 import { GridItem } from '../components/grid-item'
 
 const Page = () => {
@@ -32,15 +33,15 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          hi im sufi developer from vibez
+          i'm sufi, freelance developer from turkey and this is suf(is)land
         </Box>
 
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as={'h2'} variant="page-title">
-                 yusuf erkoc
+              yusuf erkoc
             </Heading>
-            <p>verbal terrorist ( thinker / developer / designer )</p>
+            <p>verbal terrorist ( thinker / designer / developer )</p>
           </Box>
 
           <Box
@@ -70,7 +71,7 @@ const Page = () => {
           </Heading>
           <Paragraph>
             yusuf `sufi` erkoc digital crafter based in Konya for everywhere
-            sufi work as frontend and smart contract developer
+            work as frontend and smart contract developer
           </Paragraph>
 
           <Box align="center" my={4}>
@@ -84,62 +85,58 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            bio
           </Heading>
           <BioSection>
             <BioYear>1999</BioYear>
             Born in Konya.
           </BioSection>
           <BioSection>
-            <BioYear>2014</BioYear>
-            Completedo lycee
+            <BioYear>2017</BioYear>i started computer engineering department at
+            konya technical university.
           </BioSection>
           <BioSection>
-            <BioYear>2018</BioYear>
-            Vilaxe works
+            <BioYear>2022</BioYear>i graduated from computer engineering
           </BioSection>
           <BioSection>
-            <BioYear>2020 to present</BioYear>
-            fidelio corvo
+            <BioYear>2022 to present</BioYear>
+            i started freelancing
           </BioSection>
         </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            i Love
+            i love
           </Heading>
-          <Paragraph>art,music,3D models,photo, fuji, sony</Paragraph>
-        </Section>
-        <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
-            i train
-          </Heading>
-          <Paragraph>art,music,3D models,photo, fuji, sony</Paragraph>
-        </Section>
-        <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
-            i will
-          </Heading>
-          <Paragraph>art,music,3D models,photo, fuji, sony</Paragraph>
-          <Paragraph>art,music,3D models,photo, fuji, sony</Paragraph>
-          <Paragraph>art,music,3D models,photo, fuji, sony</Paragraph>
+          <Paragraph>use new technologies, indie app development, video editing, photo, 3d modelling</Paragraph>
         </Section>
         <Section delay={0.5}>
-          <Heading as="h3" variant={"section-title"}>
+          <Heading as="h3" variant={'section-title'}>
             On The Web
           </Heading>
           <List>
             <ListItem>
               <Link href="https://github.com/yusuferkoc" target="_blank">
-                <Button variant="ghost" colorScheme={"purple"} leftIcon={<Icon as={IoLogoGithub}/>}>@yusuferkoc</Button>
+                <Button
+                  variant="ghost"
+                  colorScheme={'purple'}
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @yusuferkoc
+                </Button>
               </Link>
             </ListItem>
             <ListItem>
               <Link href="https://twitter.com/yusuferkoc" target="_blank">
-                <Button variant="ghost" colorScheme={"purple"} leftIcon={<Icon as={IoLogoTwitter}/>}>@yusuferkoc</Button>
+                <Button
+                  variant="ghost"
+                  colorScheme={'purple'}
+                  leftIcon={<Icon as={IoLogoTwitter} />}
+                >
+                  @yusuferkoc
+                </Button>
               </Link>
             </ListItem>
-            
           </List>
         </Section>
       </Container>
