@@ -108,7 +108,7 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             i love
           </Heading>
-          <Paragraph>use new technologies, indie app development, video editing, photo, 3d modelling</Paragraph>
+          <Paragraph>use new technologies, indie app development, video editing, photo(fujifilm), 3d modelling</Paragraph>
         </Section>
         <Section delay={0.5}>
           <Heading as="h3" variant={'section-title'}>
