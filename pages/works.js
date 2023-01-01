@@ -2,9 +2,9 @@ import { Container, Divider, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 import { WorkGridItem } from '../components/grid-item'
 import Section from '../components/section'
 import thumbContract from '../public/static/images/Contr`Act.png'
-import thumbDao from '../public/static/images/dao.png'
 import Glas from '../public/static/images/glas.png'
 import Layout from '../components/layouts/article'
+import sufisland from '../public/static/images/sufisland.png'
 
 const Works = () => {
   return (
@@ -21,7 +21,7 @@ const Works = () => {
               thumbnail={thumbContract}
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              Crypto integrations at smart contract level
+              Crypto integrations at smart contract level.
             </Text>
           </Section>
           <Section delay={0.2}>
@@ -32,6 +32,16 @@ const Works = () => {
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               A tool that creates a stylish code preview.
+            </Text>
+          </Section>
+          <Section delay={0.2}>
+            <WorkGridItem
+              id="blog"
+              title="Blog"
+              thumbnail={sufisland}
+            ></WorkGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            A ready-made react template to create a personal website.
             </Text>
           </Section>
         </SimpleGrid>

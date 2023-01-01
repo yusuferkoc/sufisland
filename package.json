@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "sufi`s`land",
   "scripts": {
-    "start":"node_modules/next/dist/bin/next start -p $PORT",
+    "start": "node_modules/next/dist/bin/next start -p $PORT",
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "prettier": "prettier -write",
