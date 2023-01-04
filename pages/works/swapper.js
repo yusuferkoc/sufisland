@@ -24,6 +24,10 @@ const Work = () => {
             <Meta>Platform</Meta>
             <span>Windows/macOs</span>
           </ListItem>
+          <ListItem>
+            <Meta>Stack</Meta>
+            <span>React,Next.js</span>
+          </ListItem>
         </List>
         <List>
           <ListItem>

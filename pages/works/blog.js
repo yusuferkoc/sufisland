@@ -16,13 +16,17 @@ const Work = () => {
           <ListItem>
             <Meta>Website</Meta>
             <Link href="https://sufisland.vercel.app/">
-              Contr`Act
+              sufisland
               <ExternalLinkIcon />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Windows/macOs</span>
+            <span>Windows/macOS/iOS/Android</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Stack</Meta>
+            <span>React,Next.js,Chakra UI,Framer motin</span>
           </ListItem>
         </List>
         <List>
