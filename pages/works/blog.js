@@ -26,7 +26,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React,Next.js,Chakra UI,Framer motin</span>
+            <span>React,Next.js,Chakra UI,Framer Motion</span>
           </ListItem>
         </List>
         <List>
