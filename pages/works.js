@@ -34,7 +34,17 @@ const Works = () => {
               A tool that creates a stylish code preview.
             </Text>
           </Section>
-          <Section delay={0.2}>
+          <Section delay={0.3}>
+            <WorkGridItem
+              id="blog"
+              title="Blog"
+              thumbnail={sufisland}
+            ></WorkGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            A ready-made react template to create a personal website.
+            </Text>
+          </Section>
+          <Section delay={0.4}>
             <WorkGridItem
               id="blog"
               title="Blog"
