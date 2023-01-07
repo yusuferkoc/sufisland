@@ -1,26 +1,31 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import { GridItem } from '../components/grid-item'
-import Layout from '../components/layouts/article'
+import { Container, Divider, Heading, SimpleGrid, Text } from '@chakra-ui/react'
+import { PostGridItem } from '../components/grid-item'
 import Section from '../components/section'
-import thumbGov from "../public/static/images/ac.jpg"
- 
-const Posts = () => (
-  <Layout>
-    <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Last Posts
-      </Heading>
-      <Section delay={0.1}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6} mb="50">
-          <GridItem
-            title="7 defa düşüp 8 defa kalkmak - Ahmet Çığşar"
-            thumbnail={thumbGov}
-            href="https://medium.com/@ahmetcigsar/yedi-defa-d%C3%BC%C5%9F%C3%BCp-sekiz-defa-kalkmak-e908f5560429"
-          />
+import Layout from '../components/layouts/article'
+import beg from '../public/static/images/beg.jpeg'
+
+const Posts = () => {
+  return (
+    <Layout>
+      <Container>
+        <Heading as="h3" fontSize={20} mb={4}>
+          Posts
+        </Heading>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.1}>
+            <PostGridItem
+              id="moi"
+              title="münacaat"
+              thumbnail={beg}
+            ></PostGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+              bir lorem ipsum şablonu olarak ismet özel
+            </Text>
+          </Section>
         </SimpleGrid>
-      </Section>
-    </Container>
-  </Layout>
-)
+      </Container>
+    </Layout>
+  )
+}
 
 export default Posts
