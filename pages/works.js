@@ -41,17 +41,7 @@ const Works = () => {
               thumbnail={sufisland}
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-            A ready-made react template to create a personal website.
-            </Text>
-          </Section>
-          <Section delay={0.4}>
-            <WorkGridItem
-              id="blog"
-              title="Blog"
-              thumbnail={sufisland}
-            ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-            A ready-made react template to create a personal website.
+              A ready-made react template to create a personal website.
             </Text>
           </Section>
         </SimpleGrid>
