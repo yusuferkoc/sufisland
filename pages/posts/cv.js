@@ -17,7 +17,7 @@ const Post = () => {
           </ListItem>
         </List>
         <Paragraph>
-            özgeçmiş ??
+            özgeçmiş 
         </Paragraph>
         <List>
           <ListItem>
