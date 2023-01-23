@@ -20,6 +20,8 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
 import { GridItem } from '../components/grid-item'
+import Blink from '../components/blink'
+
 
 const Page = () => {
   return (
@@ -35,7 +37,6 @@ const Page = () => {
         >
           i'm sufi, freelance developer from turkey and this is suf(is)land
         </Box>
-
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as={'h2'} variant="page-title">
@@ -43,7 +44,6 @@ const Page = () => {
             </Heading>
             <p>verbal terrorist ( thinker / designer / developer )</p>
           </Box>
-
           <Box
             flexShrink={0}
             mt={{ base: 4, md: 0 }}
@@ -64,7 +64,7 @@ const Page = () => {
             </Box>
           </Box>
         </Box>
-
+        <Blink></Blink>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             sufi
