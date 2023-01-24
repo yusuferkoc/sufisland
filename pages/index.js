@@ -22,7 +22,6 @@ import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
 import { GridItem } from '../components/grid-item'
 import Blink from '../components/blink'
 
-
 const Page = () => {
   return (
     <Layout>
@@ -37,12 +36,12 @@ const Page = () => {
         >
           i'm sufi, freelance developer from turkey and this is suf(is)land
         </Box>
-        <Box display={{ md: 'flex' }}>
+        <Box  display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as={'h2'} variant="page-title">
               yusuf erkoc
             </Heading>
-            <p>verbal terrorist ( thinker / designer / developer )</p>
+            <p>verbal crafter ( thinker / designer / developer )</p>
           </Box>
           <Box
             flexShrink={0}
@@ -63,9 +62,11 @@ const Page = () => {
               />
             </Box>
           </Box>
+        </Box >
+        <Box display={{ md: 'flex' }} alignItems="center">
+          <Blink/> 
+          <Text ml="1.5" as="i" >current focus: iOS crash course</Text>
         </Box>
-        <Blink> </Blink> 
-
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             sufi
@@ -90,7 +91,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>1999</BioYear>
-            Born in Konya.
+            born in Konya.
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>i started computer engineering department at
@@ -100,8 +101,7 @@ const Page = () => {
             <BioYear>2022</BioYear>i graduated from computer engineering
           </BioSection>
           <BioSection>
-            <BioYear>2022 to present</BioYear>
-            i started freelancing
+            <BioYear>2022 to present</BioYear>i started freelancing
           </BioSection>
         </Section>
 
@@ -109,7 +109,10 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             i love
           </Heading>
-          <Paragraph>use new technologies, indie app development, video editing, photo(fujifilm), 3d modelling</Paragraph>
+          <Paragraph>
+            use new technologies, indie app development, video editing,
+            photo(fujifilm), 3d modelling
+          </Paragraph>
         </Section>
         <Section delay={0.5}>
           <Heading as="h3" variant={'section-title'}>

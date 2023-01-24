@@ -1,5 +1,7 @@
 import { Box, keyframes, Text, usePrefersReducedMotion } from '@chakra-ui/react'
 import React from 'react'
+import styled from '@emotion/styled'
+import Paragraph from './paragraph'
 
 const Animation = keyframes`
 0% {
@@ -13,20 +15,20 @@ const Animation = keyframes`
 }
 `
 
-class Blink extends React.Component {
-  render() {
-    return (
-      <Box>
-        <Box
-          class="dot"
-          width={'10px'}
-          height="10px"
-          backgroundColor={'red'}
-          borderRadius="full"
-          animation={`${Animation} infinite 1s `}
-        ></Box>
+const Blink = () => {
+  return (
+    <Box>
+      <Box
+        class="dot"
+        width={'10px'}
+        height="10px"
+        backgroundColor={'red'}
+        borderRadius="full"
+        animation={`${Animation} infinite 1s `}
+      >
       </Box>
-    )
-  }
+    </Box>
+  )
 }
+
 export default Blink
