@@ -64,7 +64,8 @@ const Page = () => {
             </Box>
           </Box>
         </Box>
-        <Blink></Blink>
+        <Blink> </Blink> 
+
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             sufi
