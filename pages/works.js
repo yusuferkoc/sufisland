@@ -5,6 +5,8 @@ import thumbContract from '../public/static/images/Contr`Act.png'
 import Glas from '../public/static/images/glas.png'
 import Layout from '../components/layouts/article'
 import sufisland from '../public/static/images/sufisland.png'
+import comp from '../public/static/images/dao.png'
+
 
 const Works = () => {
   return (
@@ -42,6 +44,26 @@ const Works = () => {
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               A ready-made react template to create a personal website.
+            </Text>
+          </Section>
+          <Section delay={0.3}>
+            <WorkGridItem
+              id="component"
+              title="React Components"
+              thumbnail={comp}
+            ></WorkGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+              React-Chakra UI component collections
+            </Text>
+          </Section>
+          <Section delay={0.5}>
+            <WorkGridItem
+              id="swift"
+              title="Swift UI"
+              thumbnail={comp}
+            ></WorkGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+              Swift UI practise
             </Text>
           </Section>
         </SimpleGrid>

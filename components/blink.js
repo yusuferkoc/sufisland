@@ -25,8 +25,7 @@ const Blink = () => {
         backgroundColor={'red'}
         borderRadius="full"
         animation={`${Animation} infinite 1s `}
-      >
-      </Box>
+      ></Box>
     </Box>
   )
 }
