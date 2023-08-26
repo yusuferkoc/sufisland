@@ -46,6 +46,16 @@ const Works = () => {
               A ready-made react template to create a personal website.
             </Text>
           </Section>
+          <Section delay={0.5}>
+            <WorkGridItem
+              id="swift"
+              title="Swift UI"
+              thumbnail={comp}
+            ></WorkGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+              FlashChat
+            </Text>
+          </Section>
           <Section delay={0.3}>
             <WorkGridItem
               id="component"
@@ -64,16 +74,6 @@ const Works = () => {
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               Swift UI practise
-            </Text>
-          </Section>
-          <Section delay={0.5}>
-            <WorkGridItem
-              id="swift"
-              title="Swift UI"
-              thumbnail={comp}
-            ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              FlashChat
             </Text>
           </Section>
         </SimpleGrid>
