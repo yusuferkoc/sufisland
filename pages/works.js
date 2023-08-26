@@ -6,6 +6,7 @@ import Glas from '../public/static/images/glas.png'
 import Layout from '../components/layouts/article'
 import sufisland from '../public/static/images/sufisland.png'
 import comp from '../public/static/images/dao.png'
+import f1 from '../public/static/images/1.png'
 
 
 const Works = () => {
@@ -50,7 +51,7 @@ const Works = () => {
             <WorkGridItem
               id="swift"
               title="Swift UI"
-              thumbnail={comp}
+              thumbnail={f1}
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               FlashChat
