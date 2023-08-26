@@ -116,7 +116,11 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>⚪️</BioYear>
-            swift UI
+            swift ui
+          </BioSection>
+          <BioSection>
+            <BioYear>⚪️</BioYear>
+            solidity
           </BioSection>
         </Section>
         <Section delay={0.5}>
