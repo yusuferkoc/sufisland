@@ -11,7 +11,7 @@ const Work = () => {
         <Title>
           App <Badge>2023</Badge>
         </Title>
-        <Paragraph>A ready-made react template to create a personal website</Paragraph>
+        <Paragraph> iOS chat app</Paragraph>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>App</Meta>
@@ -22,7 +22,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>/iOS</span>
+            <span>iOS</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
@@ -41,11 +41,11 @@ const Work = () => {
               src={'../static/images/2.png'}
               alt="contract"
             ></WorkImage>
-                        <WorkImage
+            <WorkImage
               src={'../static/images/3.png'}
               alt="contract"
             ></WorkImage>
-                        <WorkImage
+            <WorkImage
               src={'../static/images/4.png'}
               alt="contract"
             ></WorkImage>
