@@ -50,31 +50,11 @@ const Works = () => {
           <Section delay={0.5}>
             <WorkGridItem
               id="swift"
-              title="Swift UI"
+              title="FlashChat"
               thumbnail={f1}
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              FlashChat
-            </Text>
-          </Section>
-          <Section delay={0.3}>
-            <WorkGridItem
-              id="component"
-              title="React Components"
-              thumbnail={comp}
-            ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              React-Chakra UI component collections
-            </Text>
-          </Section>
-          <Section delay={0.5}>
-            <WorkGridItem
-              id="swift"
-              title="Swift UI"
-              thumbnail={comp}
-            ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              Swift UI practise
+              iOS chat app 
             </Text>
           </Section>
         </SimpleGrid>
