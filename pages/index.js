@@ -106,16 +106,6 @@ const Page = () => {
             <BioYear>2022 to present</BioYear>i started freelancing
           </BioSection>
         </Section>
-
-        <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
-            i love
-          </Heading>
-          <Paragraph>
-            use new technologies, indie app development, video editing,
-            photo(fujifilm), 3d modelling
-          </Paragraph>
-        </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
             my tech stack
@@ -126,10 +116,20 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>⚪️</BioYear>
-            SwiftUI
+            swift UI
           </BioSection>
         </Section>
         <Section delay={0.5}>
+          <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+              i love
+            </Heading>
+            <Paragraph>
+              use new technologies, indie app development, video editing,
+              photo(fujifilm), 3d modelling
+            </Paragraph>
+          </Section>
+
           <Heading as="h3" variant={'section-title'}>
             On The Web
           </Heading>
