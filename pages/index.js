@@ -36,7 +36,7 @@ const Page = () => {
         >
           i'm sufi, freelance developer from turkey and this is suf(is)land
         </Box>
-        <Box  display={{ md: 'flex' }}>
+        <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as={'h2'} variant="page-title">
               yusuf erkoc
@@ -62,10 +62,12 @@ const Page = () => {
               />
             </Box>
           </Box>
-        </Box >
+        </Box>
         <Box display={{ md: 'flex' }} alignItems="center">
-          <Blink/> 
-          <Text ml="1.5" as="i" >current focus: iOS crash course</Text>
+          <Blink />
+          <Text ml="1.5" as="i">
+            current focus: iOS crash course
+          </Text>
         </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
@@ -113,6 +115,19 @@ const Page = () => {
             use new technologies, indie app development, video editing,
             photo(fujifilm), 3d modelling
           </Paragraph>
+        </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            my tech stack
+          </Heading>
+          <BioSection>
+            <BioYear>⚪️</BioYear>
+            react js
+          </BioSection>
+          <BioSection>
+            <BioYear>⚪️</BioYear>
+            SwiftUI
+          </BioSection>
         </Section>
         <Section delay={0.5}>
           <Heading as="h3" variant={'section-title'}>
