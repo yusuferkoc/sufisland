@@ -38,7 +38,15 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <WorkImage
-              src={'../static/images/sufisland2.png'}
+              src={'../static/images/2.png'}
+              alt="contract"
+            ></WorkImage>
+                        <WorkImage
+              src={'../static/images/3.png'}
+              alt="contract"
+            ></WorkImage>
+                        <WorkImage
+              src={'../static/images/4.png'}
               alt="contract"
             ></WorkImage>
           </ListItem>
