@@ -6,15 +6,15 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="swift">
+    <Layout title="FlashChat">
       <Container>
         <Title>
-          Blog <Badge>2022</Badge>
+          App <Badge>2023</Badge>
         </Title>
         <Paragraph>A ready-made react template to create a personal website</Paragraph>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Website</Meta>
+            <Meta>App</Meta>
             <Link href="https://sufisland.vercel.app/">
               sufisland
               <ExternalLinkIcon />
@@ -22,11 +22,11 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Windows/macOS/iOS/Android</span>
+            <span>/iOS</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React,Next.js,Chakra UI,Framer Motion</span>
+            <span>SwiftUI</span>
           </ListItem>
         </List>
         <List>

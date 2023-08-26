@@ -49,7 +49,7 @@ const Works = () => {
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
-              id="swift"
+              id="FlashChat"
               title="FlashChat"
               thumbnail={f1}
             ></WorkGridItem>
