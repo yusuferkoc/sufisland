@@ -66,6 +66,16 @@ const Works = () => {
               Swift UI practise
             </Text>
           </Section>
+          <Section delay={0.5}>
+            <WorkGridItem
+              id="swift"
+              title="Swift UI"
+              thumbnail={comp}
+            ></WorkGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+              FlashChat
+            </Text>
+          </Section>
         </SimpleGrid>
       </Container>
     </Layout>
