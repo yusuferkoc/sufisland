@@ -58,16 +58,6 @@ const Works = () => {
               iOS chat app 
             </Text>
           </Section>
-          <Section delay={0.5}>
-            <WorkGridItem
-              id="TechNews"
-              title="TechNews"
-              thumbnail={tech1}
-            ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              Hacker News stream app
-            </Text>
-          </Section>
         </SimpleGrid>
       </Container>
     </Layout>
