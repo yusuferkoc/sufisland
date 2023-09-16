@@ -60,12 +60,12 @@ const Works = () => {
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
-              id="FlashChat"
-              title="FlashChat"
+              id="TechNews"
+              title="TechNews"
               thumbnail={f1}
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              iOS chat app 
+            Hacker News stream app
             </Text>
           </Section>
         </SimpleGrid>
@@ -75,3 +75,5 @@ const Works = () => {
 }
 
 export default Works
+
+
