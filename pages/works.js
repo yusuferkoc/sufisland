@@ -7,7 +7,6 @@ import Layout from '../components/layouts/article'
 import sufisland from '../public/static/images/sufisland.png'
 import comp from '../public/static/images/dao.png'
 import f1 from '../public/static/images/1.png'
-import tech1 from '../public/static/images/tech1.png'
 
 
 
