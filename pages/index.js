@@ -116,6 +116,10 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>⚪️</BioYear>
+            uikit
+          </BioSection>
+          <BioSection>
+            <BioYear>⚪️</BioYear>
             swift ui
           </BioSection>
           <BioSection>
