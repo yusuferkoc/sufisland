@@ -57,7 +57,7 @@ const Page = () => {
                 maxWidth="100px"
                 display="inline-block"
                 borderRadius="full"
-                src="static/images/sufi.jpeg"
+                src="static/images/ss2.jpeg"
                 alt="pfp"
               />
             </Box>
@@ -110,6 +110,18 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             my tech stack
           </Heading>
+          <BioSection>
+            <BioYear>⚪️</BioYear>
+            html5
+          </BioSection>
+          <BioSection>
+            <BioYear>⚪️</BioYear>
+            css
+          </BioSection>
+          <BioSection>
+            <BioYear>⚪️</BioYear>
+            javascript
+          </BioSection>
           <BioSection>
             <BioYear>⚪️</BioYear>
             react js
