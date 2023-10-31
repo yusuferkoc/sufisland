@@ -57,7 +57,7 @@ const Page = () => {
                 maxWidth="100px"
                 display="inline-block"
                 borderRadius="full"
-                src="static/images/ss2.jpgg"
+                src="static/images/ss2.jpg"
                 alt="pfp"
               />
             </Box>
@@ -116,7 +116,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>⚪️</BioYear>
-            css
+            css3
           </BioSection>
           <BioSection>
             <BioYear>⚪️</BioYear>
