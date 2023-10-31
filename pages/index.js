@@ -57,7 +57,7 @@ const Page = () => {
                 maxWidth="100px"
                 display="inline-block"
                 borderRadius="full"
-                src="static/images/ss2.jpeg"
+                src="static/images/ss2.jpgg"
                 alt="pfp"
               />
             </Box>
