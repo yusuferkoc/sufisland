@@ -9,6 +9,7 @@ import comp from '../public/static/images/dao.png'
 import f1 from '../public/static/images/1.png'
 import t1 from '../public/static/images/t1.png'
 import pdf from '../public/static/images/p.gif'
+import tn from '../public/static/images/tn.gif'
 
 
 
@@ -65,7 +66,7 @@ const Works = () => {
             <WorkGridItem
               id="TechNews"
               title="TechNews"
-              thumbnail={t1}
+              thumbnail={tn}
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
             Hacker News stream app
