@@ -15,7 +15,7 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>App</Meta>
-            <Link href="https://sufisland.vercel.app/">
+            <Link href="https://github.com/yusuferkoc/SwiftUI-PDFReader">
               sufisland
               <ExternalLinkIcon />
             </Link>
@@ -32,21 +32,7 @@ const Work = () => {
         <List>
           <ListItem>
             <WorkImage
-              src={'../static/images/1.png'}
-              alt="contract"
-            ></WorkImage>
-          </ListItem>
-          <ListItem>
-            <WorkImage
-              src={'../static/images/2.png'}
-              alt="contract"
-            ></WorkImage>
-            <WorkImage
-              src={'../static/images/3.png'}
-              alt="contract"
-            ></WorkImage>
-            <WorkImage
-              src={'../static/images/4.png'}
+              src={'../static/images/pdf.gif'}
               alt="contract"
             ></WorkImage>
           </ListItem>
