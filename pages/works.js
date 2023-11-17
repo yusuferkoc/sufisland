@@ -70,6 +70,16 @@ const Works = () => {
             Hacker News stream app
             </Text>
           </Section>
+          <Section delay={0.5}>
+            <WorkGridItem
+              id="PDFReader"
+              title="PDFReader"
+              thumbnail={f1}
+            ></WorkGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+              Swift UI PDF Reader app
+            </Text>
+          </Section>
         </SimpleGrid>
       </Container>
     </Layout>
