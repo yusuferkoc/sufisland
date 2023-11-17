@@ -8,6 +8,7 @@ import sufisland from '../public/static/images/sufisland.png'
 import comp from '../public/static/images/dao.png'
 import f1 from '../public/static/images/1.png'
 import t1 from '../public/static/images/t1.png'
+import pdf from '../public/static/images/pdf.gif'
 
 
 
@@ -74,7 +75,7 @@ const Works = () => {
             <WorkGridItem
               id="PDFReader"
               title="PDFReader"
-              thumbnail={f1}
+              thumbnail={pdf}
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               Swift UI PDF Reader app
