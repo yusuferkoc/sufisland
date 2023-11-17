@@ -16,7 +16,7 @@ const Work = () => {
           <ListItem>
             <Meta>App</Meta>
             <Link href="https://github.com/yusuferkoc/SwiftUI-PDFReader">
-              sufisland
+            Github
               <ExternalLinkIcon />
             </Link>
           </ListItem>

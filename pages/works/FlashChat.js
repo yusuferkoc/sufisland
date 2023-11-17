@@ -16,7 +16,7 @@ const Work = () => {
           <ListItem>
             <Meta>App</Meta>
             <Link href="https://github.com/yusuferkoc/FlashChat">
-              sufisland
+              Github
               <ExternalLinkIcon />
             </Link>
           </ListItem>
