@@ -42,6 +42,12 @@ const Work = () => {
               alt="contract"
             ></WorkImage>
           </ListItem>
+          <ListItem>
+            <WorkImage
+              src={'../static/images/tn.gif'}
+              alt="contract"
+            ></WorkImage>
+          </ListItem>
         </List>
       </Container>
     </Layout>
