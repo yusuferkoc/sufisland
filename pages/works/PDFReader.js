@@ -32,7 +32,7 @@ const Work = () => {
         <List>
           <ListItem>
             <WorkImage
-              src={'../static/images/pdf.gif'}
+              src={'../static/images/p.gif'}
               alt="contract"
             ></WorkImage>
           </ListItem>
