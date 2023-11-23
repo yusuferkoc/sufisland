@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="TechNews">
+    <Layout title="BTCurrency">
       <Container>
         <Title>
           App <Badge>2023</Badge>

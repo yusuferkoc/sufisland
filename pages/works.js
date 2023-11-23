@@ -61,7 +61,7 @@ const Works = () => {
               thumbnail={btc}
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              Swift UI PDF Reader app
+            iOS app that only shows the price of 1 BTC for all currencies
             </Text>
           </Section>
           <Section delay={0.5}>
