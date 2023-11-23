@@ -10,6 +10,8 @@ import f1 from '../public/static/images/1.png'
 import t1 from '../public/static/images/t1.png'
 import pdf from '../public/static/images/p.gif'
 import tn from '../public/static/images/tn.gif'
+import btc from '../public/static/images/btc.gif'
+
 
 
 
@@ -50,6 +52,16 @@ const Works = () => {
             ></WorkGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               A ready-made react template to create a personal website.
+            </Text>
+          </Section>
+          <Section delay={0.5}>
+            <WorkGridItem
+              id="BTCurrency"
+              title="BTCurrency"
+              thumbnail={btc}
+            ></WorkGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+              Swift UI PDF Reader app
             </Text>
           </Section>
           <Section delay={0.5}>
