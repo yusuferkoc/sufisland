@@ -66,7 +66,7 @@ const Page = () => {
         <Box display={{ md: 'flex' }} alignItems="center">
           <Blink />
           <Text ml="1.5" as="i">
-            current focus: iOS crash course
+            current focus: cloud/SRE course
           </Text>
         </Box>
         <Section delay={0.1}>
@@ -133,6 +133,10 @@ const Page = () => {
           <BioSection>
             <BioYear>⚪️</BioYear>
             swift ui
+          </BioSection>
+          <BioSection>
+            <BioYear>⚪️</BioYear>
+            python
           </BioSection>
           <BioSection>
             <BioYear>⚪️</BioYear>
