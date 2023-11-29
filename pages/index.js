@@ -142,6 +142,10 @@ const Page = () => {
             <BioYear>⚪️</BioYear>
             solidity
           </BioSection>
+          <BioSection>
+            <BioYear>⚪️</BioYear>
+            mongodb
+          </BioSection>
         </Section>
         <Section delay={0.5}>
           <Section delay={0.3}>
