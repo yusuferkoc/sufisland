@@ -4,7 +4,7 @@ import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import beg from '../public/static/images/beg.jpeg'
 import cv from '../public/static/images/yecv.png'
-
+import resume from '../public/static/images/erkoc_yusuf.pdf'
 
 const Posts = () => {
   return (
@@ -26,9 +26,9 @@ const Posts = () => {
           </Section>
           <Section delay={0.3}>
             <PostGridItem id="cv" title="Resume" thumbnail={cv}></PostGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            <a href='resume' download={resume} fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               .şunlar bunlar
-            </Text>
+            </a>
           </Section>
         </SimpleGrid>
       </Container>
