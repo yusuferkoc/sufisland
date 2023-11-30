@@ -11,6 +11,8 @@ import t1 from '../public/static/images/t1.png'
 import pdf from '../public/static/images/p.gif'
 import tn from '../public/static/images/tn.gif'
 import btc from '../public/static/images/btc.gif'
+import Paragraph from '../components/paragraph'
+import Subparagraph from '../components/subparagraph'
 
 
 
@@ -30,9 +32,9 @@ const Works = () => {
               title="Swapper"
               thumbnail={thumbContract}
             ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               Crypto integrations at smart contract level.
-            </Text>
+            </Subparagraph>
           </Section>
           <Section delay={0.2}>
             <WorkGridItem
@@ -40,9 +42,9 @@ const Works = () => {
               title="Glas"
               thumbnail={Glas}
             ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               A tool that creates a stylish code preview.
-            </Text>
+            </Subparagraph>
           </Section>
           <Section delay={0.3}>
             <WorkGridItem
@@ -50,9 +52,9 @@ const Works = () => {
               title="Blog"
               thumbnail={sufisland}
             ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               A ready-made react template to create a personal website.
-            </Text>
+            </Subparagraph>
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
@@ -60,9 +62,9 @@ const Works = () => {
               title="BTCurrency"
               thumbnail={btc}
             ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
             iOS app that only shows the price of 1 BTC for all currencies
-            </Text>
+            </Subparagraph>
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
@@ -70,9 +72,9 @@ const Works = () => {
               title="FlashChat"
               thumbnail={f1}
             ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               iOS chat app 
-            </Text>
+            </Subparagraph>
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
@@ -80,9 +82,9 @@ const Works = () => {
               title="TechNews"
               thumbnail={tn}
             ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
             Hacker News stream app
-            </Text>
+            </Subparagraph>
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
@@ -90,9 +92,9 @@ const Works = () => {
               title="PDFReader"
               thumbnail={pdf}
             ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               Swift UI PDF Reader app
-            </Text>
+            </Subparagraph>
           </Section>
         </SimpleGrid>
       </Container>

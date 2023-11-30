@@ -10,7 +10,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
         src={thumbnail}
         alt={title}
         className="grid-item-thumbnail"
-        placeholder="blur"
+        placeholder='blur'
         loading="lazy"
       ></Image>
       <LinkOverlay href={href} target="_blank">
@@ -30,7 +30,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
           src={thumbnail}
           alt={title}
           className="grid-item-thumbnail"
-          placeholder="blur"
+          placeholder='blur'
         ></Image>
         <LinkOverlay href={`/works/${id}`}>
           <Text mt={2} fontSize={20}>
