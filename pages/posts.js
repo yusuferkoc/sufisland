@@ -3,7 +3,6 @@ import { PostGridItem } from '../components/grid-item'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import beg from '../public/static/images/beg.jpeg'
-import cv from '../public/static/images/yecv.png'
 
 
 const Posts = () => {
@@ -21,7 +20,7 @@ const Posts = () => {
               thumbnail={beg}
             ></PostGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              bir lorem ipsum şablonu olarak ismet özel
+              MACOS branch lorem ipsum şablonu olarak ismet özel
             </Text>
           </Section>
         </SimpleGrid>
