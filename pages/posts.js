@@ -20,7 +20,7 @@ const Posts = () => {
               thumbnail={beg}
             ></PostGridItem>
             <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-              MACOS branch lorem ipsum şablonu olarak ismet özel
+              MACOS lorem ipsum şablonu olarak ismet özel
             </Text>
           </Section>
         </SimpleGrid>
