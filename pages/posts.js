@@ -3,7 +3,6 @@ import { PostGridItem } from '../components/grid-item'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import beg from '../public/static/images/beg.jpeg'
-import cv from '../public/static/images/yecv.png'
 
 
 const Posts = () => {
