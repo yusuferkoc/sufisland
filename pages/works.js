@@ -62,9 +62,9 @@ const Works = () => {
               title="Noa"
               thumbnail={noa}
             ></WorkGridItem>
-            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
             Social Media App UI
-            </Text>
+            </Subparagraph>
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
@@ -78,22 +78,22 @@ const Works = () => {
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
+              id="TechNews"
+              title="TechNews"
+              thumbnail={t1}
+            ></WorkGridItem>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            Hacker News stream app
+            </Subparagraph>
+          </Section>
+          <Section delay={0.5}>
+            <WorkGridItem
               id="FlashChat"
               title="FlashChat"
               thumbnail={f1}
             ></WorkGridItem>
             <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               iOS chat app 
-            </Subparagraph>
-          </Section>
-          <Section delay={0.5}>
-            <WorkGridItem
-              id="TechNews"
-              title="TechNews"
-              thumbnail={tn}
-            ></WorkGridItem>
-            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
-            Hacker News stream app
             </Subparagraph>
           </Section>
           <Section delay={0.5}>
