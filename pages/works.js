@@ -11,8 +11,8 @@ import t1 from '../public/static/images/t1.png'
 import pdf from '../public/static/images/p.gif'
 import tn from '../public/static/images/tn.gif'
 import btc from '../public/static/images/btc.gif'
-import Paragraph from '../components/paragraph'
 import Subparagraph from '../components/subparagraph'
+import noa from '../public/static/images/noa.png'
 
 
 
