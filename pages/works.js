@@ -12,7 +12,7 @@ import pdf from '../public/static/images/p.gif'
 import tn from '../public/static/images/tn.gif'
 import btc from '../public/static/images/btc.gif'
 import Paragraph from '../components/paragraph'
-import Subparagraph from '../components/subparagraph'
+import noa from '../public/static/images/noa.png'
 
 
 
@@ -55,6 +55,16 @@ const Works = () => {
             <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               A ready-made react template to create a personal website.
             </Subparagraph>
+          </Section>
+          <Section delay={0.5}>
+            <WorkGridItem
+              id="Noa"
+              title="Noa"
+              thumbnail={noa}
+            ></WorkGridItem>
+            <Text fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            Social Media App UI
+            </Text>
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
