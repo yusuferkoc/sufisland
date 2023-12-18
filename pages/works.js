@@ -13,6 +13,8 @@ import tn from '../public/static/images/tn.gif'
 import btc from '../public/static/images/btc.gif'
 import Subparagraph from '../components/subparagraph'
 import noa from '../public/static/images/noa.png'
+import noa from '../public/static/images/recipe.png'
+
 
 
 
@@ -54,6 +56,16 @@ const Works = () => {
             ></WorkGridItem>
             <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
               A ready-made react template to create a personal website.
+            </Subparagraph>
+          </Section>
+          <Section delay={0.5}>
+            <WorkGridItem
+              id="recipe"
+              title="recipe"
+              thumbnail={recipe}
+            ></WorkGridItem>
+            <Subparagraph fontFamily="M PLUS Rounded 1c" fontWeight={'thin'}>
+            Recipe app UI 
             </Subparagraph>
           </Section>
           <Section delay={0.5}>
