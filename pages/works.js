@@ -13,7 +13,7 @@ import tn from '../public/static/images/tn.gif'
 import btc from '../public/static/images/btc.gif'
 import Subparagraph from '../components/subparagraph'
 import noa from '../public/static/images/noa.png'
-import noa from '../public/static/images/recipe.png'
+import recipe from '../public/static/images/recipe.png'
 
 
 
