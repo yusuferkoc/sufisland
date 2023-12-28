@@ -67,7 +67,6 @@ const Page = () => {
           <Blink />
           <Text ml="1.5" as="i">
             current focus: cloud/SRE course
-            completed focus: angela yu iOS crash course
           </Text>
         </Box>
         <Section delay={0.1}>
