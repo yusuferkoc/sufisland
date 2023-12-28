@@ -67,6 +67,7 @@ const Page = () => {
           <Blink />
           <Text ml="1.5" as="i">
             current focus: cloud/SRE course
+            completed focus: angela yu iOS crash course
           </Text>
         </Box>
         <Section delay={0.1}>
@@ -75,7 +76,7 @@ const Page = () => {
           </Heading>
           <Paragraph>
             yusuf `sufi` erkoc digital crafter based in Konya for everywhere
-            work as frontend and smart contract developer
+            work as iOS and smart contract developer
           </Paragraph>
 
           <Box align="center" my={4}>
